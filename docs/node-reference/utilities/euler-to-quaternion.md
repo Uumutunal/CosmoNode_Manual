@@ -1,10 +1,10 @@
 ---
-title: Merge
+title: Euler To Quaternion
 ---
 
 ## Overview
 
-Describe what the **Merge** node does.
+Describe what the **Euler To Quaternion** node does.
 
 ---
 

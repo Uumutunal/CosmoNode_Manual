@@ -1,10 +1,10 @@
 ---
-title: Merge
+title: Grid
 ---
 
 ## Overview
 
-Describe what the **Merge** node does.
+Describe what the **Grid** node does.
 
 ---
 

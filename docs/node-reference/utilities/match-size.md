@@ -1,10 +1,10 @@
 ---
-title: Merge
+title: Match Size
 ---
 
 ## Overview
 
-Describe what the **Merge** node does.
+Describe what the **Match Size** node does.
 
 ---
 

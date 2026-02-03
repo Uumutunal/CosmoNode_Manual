@@ -1,10 +1,10 @@
 ---
-title: Merge
+title: Inflate
 ---
 
 ## Overview
 
-Describe what the **Merge** node does.
+Describe what the **Inflate** node does.
 
 ---
 

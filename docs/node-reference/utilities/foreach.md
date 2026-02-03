@@ -1,10 +1,10 @@
 ---
-title: Merge
+title: Foreach
 ---
 
 ## Overview
 
-Describe what the **Merge** node does.
+Describe what the **Foreach** node does.
 
 ---
 

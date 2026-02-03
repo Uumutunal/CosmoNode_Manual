@@ -1,0 +1,9 @@
+{
+  "label": "Curve",
+  "collapsible": true,
+  "collapsed": true,
+  "link": {
+    "type": "generated-index",
+    "description": "Mesh-related nodes and operations."
+  }
+}

@@ -1,10 +1,10 @@
 ---
-title: Merge
+title: Intersection
 ---
 
 ## Overview
 
-Describe what the **Merge** node does.
+Describe what the **Intersection** node does.
 
 ---
 

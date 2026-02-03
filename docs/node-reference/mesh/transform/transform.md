@@ -1,10 +1,10 @@
 ---
-title: Merge
+title: Transform
 ---
 
 ## Overview
 
-Describe what the **Merge** node does.
+Describe what the **Transform** node does.
 
 ---
 

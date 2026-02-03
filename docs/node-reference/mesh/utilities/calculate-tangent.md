@@ -1,10 +1,10 @@
 ---
-title: Merge
+title: Calculate Tangent
 ---
 
 ## Overview
 
-Describe what the **Merge** node does.
+Describe what the **Calculate Tangent** node does.
 
 ---
 

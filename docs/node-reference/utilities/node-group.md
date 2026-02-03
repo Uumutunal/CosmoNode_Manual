@@ -1,10 +1,10 @@
 ---
-title: Merge
+title: Node Group
 ---
 
 ## Overview
 
-Describe what the **Merge** node does.
+Describe what the **Node Group** node does.
 
 ---
 

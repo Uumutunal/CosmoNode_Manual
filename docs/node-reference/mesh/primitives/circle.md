@@ -1,10 +1,10 @@
 ---
-title: Merge
+title: Circle
 ---
 
 ## Overview
 
-Describe what the **Merge** node does.
+Describe what the **Circle** node does.
 
 ---
 

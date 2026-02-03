@@ -1,10 +1,10 @@
 ---
-title: Merge
+title: Follow Path
 ---
 
 ## Overview
 
-Describe what the **Merge** node does.
+Describe what the **Follow Path** node does.
 
 ---
 

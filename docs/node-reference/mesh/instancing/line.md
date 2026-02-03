@@ -1,10 +1,10 @@
 ---
-title: Merge
+title: Line
 ---
 
 ## Overview
 
-Describe what the **Merge** node does.
+Describe what the **Line** node does.
 
 ---
 

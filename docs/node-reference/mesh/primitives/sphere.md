@@ -1,10 +1,10 @@
 ---
-title: Merge
+title: Sphere
 ---
 
 ## Overview
 
-Describe what the **Merge** node does.
+Describe what the **Sphere** node does.
 
 ---
 

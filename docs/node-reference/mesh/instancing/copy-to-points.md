@@ -1,10 +1,10 @@
 ---
-title: Merge
+title: Copy To Points
 ---
 
 ## Overview
 
-Describe what the **Merge** node does.
+Describe what the **Copy To Points** node does.
 
 ---
 

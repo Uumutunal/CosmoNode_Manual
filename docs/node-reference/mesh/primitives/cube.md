@@ -1,10 +1,10 @@
 ---
-title: Merge
+title: Cube
 ---
 
 ## Overview
 
-Describe what the **Merge** node does.
+Describe what the **Cube** node does.
 
 ---
 

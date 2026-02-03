@@ -1,10 +1,10 @@
 ---
-title: Merge
+title: Cylinder
 ---
 
 ## Overview
 
-Describe what the **Merge** node does.
+Describe what the **Cylinder** node does.
 
 ---
 

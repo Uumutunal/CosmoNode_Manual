@@ -1,10 +1,10 @@
 ---
-title: Merge
+title: Copy
 ---
 
 ## Overview
 
-Describe what the **Merge** node does.
+Describe what the **Copy** node does.
 
 ---
 

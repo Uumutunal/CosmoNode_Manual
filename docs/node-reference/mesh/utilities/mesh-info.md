@@ -1,10 +1,10 @@
 ---
-title: Merge
+title: Mesh Info
 ---
 
 ## Overview
 
-Describe what the **Merge** node does.
+Describe what the **Mesh Info** node does.
 
 ---
 

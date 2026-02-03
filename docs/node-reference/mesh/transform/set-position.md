@@ -1,10 +1,10 @@
 ---
-title: Merge
+title: Set Position
 ---
 
 ## Overview
 
-Describe what the **Merge** node does.
+Describe what the **Set Position** node does.
 
 ---
 
