@@ -4,64 +4,33 @@ title: Inflate
 
 ## Overview
 
-Describe what the **Inflate** node does.
+Displaces mesh vertices along their normal vectors.
 
 ---
 
 ## Inputs
 
-| Name | Type | Description |
-|------|------|-------------|
-| Input | Mesh | Incoming mesh data |
+| Name     | Type     | Description                                      |
+| :------- | :------- | :----------------------------------------------- |
+| Input    | MeshData | The mesh to be deformed.                         |
+| Distance | float    | The distance to move vertices along their normals. |
 
 ---
 
 ## Outputs
 
-| Name | Type | Description |
-|------|------|-------------|
-| Output | Mesh | Resulting mesh |
+| Name   | Type     | Description                                      |
+| :----- | :----    | :----------------------------------------------- |
+| Output | MeshData | The resulting mesh after the inflation operation. |
 
 ---
 
 ## Parameters
 
-| Name | Type | Default | Description |
-|------|------|---------|-------------|
-| — | — | — | — |
+> This node does not expose additional parameters.
 
 ---
 
 ## Behavior Notes
 
-- Describe execution behavior
-- Edge cases
-- Special rules
-
 ---
-
-## Performance Considerations
-
-- Time complexity
-- Memory usage
-- Recommended usage patterns
-
----
-
-## Common Use Cases
-
-- Example use case 1
-- Example use case 2
-
----
-
-## Limitations
-
-- Known limitations
-
----
-
-## Related Nodes
-
-- RelatedNode1
-- RelatedNode2

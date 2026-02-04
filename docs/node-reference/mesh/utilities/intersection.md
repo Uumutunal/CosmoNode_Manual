@@ -4,64 +4,39 @@ title: Intersection
 
 ## Overview
 
-Describe what the **Intersection** node does.
+Calculates the intersection between two meshes. This node identifies where the surfaces of two geometric objects meet and generates new geometry based on that contact area.
 
 ---
 
 ## Inputs
 
-| Name | Type | Description |
-|------|------|-------------|
-| Input | Mesh | Incoming mesh data |
+| Name     | Type     | Description                                                                 |
+| :------- | :------- | :-------------------------------------------------------------------------- |
+| Input 1  | MeshData | The first mesh to test for intersection.                                    |
+| Input 2  | MeshData | The second mesh to test for intersection.                                   |
+| Segments | bool     | Controls whether the resulting points should be connected to form edges. |
 
 ---
 
 ## Outputs
 
-| Name | Type | Description |
-|------|------|-------------|
-| Output | Mesh | Resulting mesh |
+| Name   | Type     | Description                                           |
+| :----- | :------- | :---------------------------------------------------- |
+| Output | MeshData | The mesh data representing the intersection result.   |
 
 ---
 
 ## Parameters
 
-| Name | Type | Default | Description |
-|------|------|---------|-------------|
-| — | — | — | — |
+> This node does not expose additional parameters.
 
 ---
 
 ## Behavior Notes
 
-- Describe execution behavior
-- Edge cases
-- Special rules
+- Depending on the internal implementation, this node typically performs a Boolean "And" operation.
+- **Segments Toggle**: 
+    - When **Segments** is **true**, the node generates lines (edges) along the path where the two meshes cut through each other. 
+    - When **Segments** is **false**, the node may only output the raw vertices at the intersection points.
 
 ---
-
-## Performance Considerations
-
-- Time complexity
-- Memory usage
-- Recommended usage patterns
-
----
-
-## Common Use Cases
-
-- Example use case 1
-- Example use case 2
-
----
-
-## Limitations
-
-- Known limitations
-
----
-
-## Related Nodes
-
-- RelatedNode1
-- RelatedNode2

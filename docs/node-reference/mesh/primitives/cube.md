@@ -4,64 +4,36 @@ title: Cube
 
 ## Overview
 
-Describe what the **Cube** node does.
+Generates a 3D box primitive with adjustable dimensions, orientation, and edge resolution.
 
 ---
 
 ## Inputs
 
-| Name | Type | Description |
-|------|------|-------------|
-| Input | Mesh | Incoming mesh data |
+| Name           | Type    | Description                                                                 |
+| :------------- | :------ | :-------------------------------------------------------------------------- |
+| Origin         | Vector3 | The center point of the cube in 3D space.                                   |
+| Rotation       | Vector3 | The Euler angles (in degrees) for the cube's orientation.                   |
+| Scale          | Vector3 | The dimensions of the cube along the X, Y, and Z axes.                      |
+| Resolution X/Y/Z | int     | The number of subdivisions on each face. Increasing this adds more vertices. |
+| Uniform Scale  | float   | A global multiplier applied to the overall size of the cube.                |
 
 ---
 
 ## Outputs
 
-| Name | Type | Description |
-|------|------|-------------|
-| Output | Mesh | Resulting mesh |
+| Name   | Type     | Description                                           |
+| :----- | :------- | :---------------------------------------------------- |
+| Output | MeshData | The generated cube mesh.    |
 
 ---
 
 ## Parameters
 
-| Name | Type | Default | Description |
-|------|------|---------|-------------|
-| — | — | — | — |
+> This node does not expose additional parameters.
 
 ---
 
 ## Behavior Notes
 
-- Describe execution behavior
-- Edge cases
-- Special rules
-
 ---
-
-## Performance Considerations
-
-- Time complexity
-- Memory usage
-- Recommended usage patterns
-
----
-
-## Common Use Cases
-
-- Example use case 1
-- Example use case 2
-
----
-
-## Limitations
-
-- Known limitations
-
----
-
-## Related Nodes
-
-- RelatedNode1
-- RelatedNode2

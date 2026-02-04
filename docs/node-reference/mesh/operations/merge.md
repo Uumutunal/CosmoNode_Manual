@@ -4,64 +4,33 @@ title: Merge
 
 ## Overview
 
-Describe what the **Merge** node does.
+Combines two separate mesh data objects into a single, unified mesh object.
 
 ---
 
 ## Inputs
 
-| Name | Type | Description |
-|------|------|-------------|
-| Input | Mesh | Incoming mesh data |
+| Name    | Type     | Description               |
+| :------ | :------- | :------------------------ |
+| Input 1 | MeshData | The first mesh to merge.  |
+| Input 2 | MeshData | The second mesh to merge. |
 
 ---
 
 ## Outputs
 
-| Name | Type | Description |
-|------|------|-------------|
-| Output | Mesh | Resulting mesh |
+| Name   | Type     | Description                                           |
+| :----- | :------- | :---------------------------------------------------- |
+| Output | MeshData | A single mesh containing the geometry of both inputs. |
 
 ---
 
 ## Parameters
 
-| Name | Type | Default | Description |
-|------|------|---------|-------------|
-| — | — | — | — |
+> This node does not expose additional parameters.
 
 ---
 
 ## Behavior Notes
 
-- Describe execution behavior
-- Edge cases
-- Special rules
-
 ---
-
-## Performance Considerations
-
-- Time complexity
-- Memory usage
-- Recommended usage patterns
-
----
-
-## Common Use Cases
-
-- Example use case 1
-- Example use case 2
-
----
-
-## Limitations
-
-- Known limitations
-
----
-
-## Related Nodes
-
-- RelatedNode1
-- RelatedNode2

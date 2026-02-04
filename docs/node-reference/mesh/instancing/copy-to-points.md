@@ -4,64 +4,39 @@ title: Copy To Points
 
 ## Overview
 
-Describe what the **Copy To Points** node does.
+Instances a piece of geometry onto every vertex of a target mesh or curve, populating a scene with repeated mesh data.
 
 ---
 
 ## Inputs
 
-| Name | Type | Description |
-|------|------|-------------|
-| Input | Mesh | Incoming mesh data |
+| Name           | Type             | Description                                                                 |
+| :------------- | :--------------- | :-------------------------------------------------------------------------- |
+| Geometry Input | MeshData         | The source geometry that will be duplicated.                                |
+| Point Input    | MeshData / Curve | The target locations. Vertices or curve points serve as the instance origin. |
+| Rotation Input | `List<Quaternion>` | A list of rotations to apply to each instance.                               |
 
 ---
 
 ## Outputs
 
-| Name | Type | Description |
-|------|------|-------------|
-| Output | Mesh | Resulting mesh |
+| Name   | Type     | Description                                                                 |
+| :----- | :------- | :-------------------------------------------------------------------------- |
+| Output | MeshData | The combined mesh containing all instanced copies of the geometry.          |
 
 ---
 
 ## Parameters
 
-| Name | Type | Default | Description |
-|------|------|---------|-------------|
-| — | — | — | — |
+| Name              | Type | Default | Description                                                                           |
+| :---------------- | :--- | :------ | :------------------------------------------------------------------------------------ |
+| Align To Rotation | bool | false   | If enabled, uses the **Rotation Input** to orient each instance.                      |
 
 ---
 
 ## Behavior Notes
 
-- Describe execution behavior
-- Edge cases
-- Special rules
+- The **Point Input** accepts both `MeshData` (using vertices) and `Curve` types. Curves are automatically converted to mesh points internally.
+- If **Align To Rotation** is active, each object will use **Rotation Input** to align.
 
 ---
-
-## Performance Considerations
-
-- Time complexity
-- Memory usage
-- Recommended usage patterns
-
----
-
-## Common Use Cases
-
-- Example use case 1
-- Example use case 2
-
----
-
-## Limitations
-
-- Known limitations
-
----
-
-## Related Nodes
-
-- RelatedNode1
-- RelatedNode2

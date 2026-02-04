@@ -4,64 +4,38 @@ title: Cylinder
 
 ## Overview
 
-Describe what the **Cylinder** node does.
+Generates a cylindrical primitive.
 
 ---
 
 ## Inputs
 
-| Name | Type | Description |
-|------|------|-------------|
-| Input | Mesh | Incoming mesh data |
+| Name          | Type    | Description                                                                 |
+| :------------ | :------ | :-------------------------------------------------------------------------- |
+| Origin        | Vector3 | The center point of the cylinder.                                           |
+| Rotation      | Vector3 | The Euler angles for the cylinder's orientation.                            |
+| Scale         | Vector3 | Scaling along X, Y, and Z. Adjusting X/Z changes the radius/elliptical shape. |
+| Rows          | int     | The number of vertical segments along the height of the cylinder.           |
+| Columns       | int     | The number of radial segments. Higher values create a smoother cylinder.    |
+| Uniform Scale | float   | A global multiplier applied to the final mesh size.                         |
+| Fill Caps     | bool    | If true, generates circular faces to close the top and bottom of the cylinder. |
 
 ---
 
 ## Outputs
 
-| Name | Type | Description |
-|------|------|-------------|
-| Output | Mesh | Resulting mesh |
+| Name   | Type     | Description                                           |
+| :----- | :------- | :---------------------------------------------------- |
+| Output | MeshData | The generated cylinder mesh data.                     |
 
 ---
 
 ## Parameters
 
-| Name | Type | Default | Description |
-|------|------|---------|-------------|
-| — | — | — | — |
+> This node does not expose additional parameters.
 
 ---
 
 ## Behavior Notes
 
-- Describe execution behavior
-- Edge cases
-- Special rules
-
 ---
-
-## Performance Considerations
-
-- Time complexity
-- Memory usage
-- Recommended usage patterns
-
----
-
-## Common Use Cases
-
-- Example use case 1
-- Example use case 2
-
----
-
-## Limitations
-
-- Known limitations
-
----
-
-## Related Nodes
-
-- RelatedNode1
-- RelatedNode2

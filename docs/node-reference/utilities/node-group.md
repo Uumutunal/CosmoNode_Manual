@@ -4,64 +4,29 @@ title: Node Group
 
 ## Overview
 
-Describe what the **Node Group** node does.
+A container node that encapsulates a sub-graph of nodes into a single, organized block. İt allows for modularity, reusability, and cleaner graph layouts by nesting complex logic inside a single node.
 
 ---
 
-## Inputs
+## Inputs & Outputs
 
-| Name | Type | Description |
-|------|------|-------------|
-| Input | Mesh | Incoming mesh data |
 
----
+> This node has **dynamic** ports. It does not have default inputs or outputs.
 
-## Outputs
-
-| Name | Type | Description |
-|------|------|-------------|
-| Output | Mesh | Resulting mesh |
+- **Dynamic Inputs**: Automatically generated based on the **Input Nodes** placed inside the sub-graph.
+- **Dynamic Outputs**: Automatically generated based on the **Output Nodes** placed inside the sub-graph.
 
 ---
 
 ## Parameters
 
-| Name | Type | Default | Description |
-|------|------|---------|-------------|
-| — | — | — | — |
+> This node does not expose standard parameters, as its behavior is defined by the internal nodes it contains.
 
 ---
 
 ## Behavior Notes
 
-- Describe execution behavior
-- Edge cases
-- Special rules
+- Node Groups help manage large-scale procedural projects by hiding detailed logic. You can think of it as a "custom node" created on the fly.
+- To pass data into the group (like a `MeshData` object or a `float`), you must place a specialized **Group Input** node inside the sub-graph. To send data back to the main graph, use a **Group Output** node.
 
 ---
-
-## Performance Considerations
-
-- Time complexity
-- Memory usage
-- Recommended usage patterns
-
----
-
-## Common Use Cases
-
-- Example use case 1
-- Example use case 2
-
----
-
-## Limitations
-
-- Known limitations
-
----
-
-## Related Nodes
-
-- RelatedNode1
-- RelatedNode2

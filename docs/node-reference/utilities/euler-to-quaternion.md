@@ -4,64 +4,33 @@ title: Euler To Quaternion
 
 ## Overview
 
-Describe what the **Euler To Quaternion** node does.
+Converts rotation values from Euler angles (degrees) into a Quaternion representation.
 
 ---
 
 ## Inputs
 
-| Name | Type | Description |
-|------|------|-------------|
-| Input | Mesh | Incoming mesh data |
+| Name     | Type    | Description                                                 |
+| :------- | :------ | :---------------------------------------------------------- |
+| Rotation | Vector3 | The rotation expressed in degrees for the X, Y, and Z axes. |
 
 ---
 
 ## Outputs
 
-| Name | Type | Description |
-|------|------|-------------|
-| Output | Mesh | Resulting mesh |
+| Name       | Type       | Description                                              |
+| :--------- | :--------- | :------------------------------------------------------- |
+| Quaternion | Quaternion | The resulting rotation in a four-dimensional coordinate system. |
 
 ---
 
 ## Parameters
 
-| Name | Type | Default | Description |
-|------|------|---------|-------------|
-| — | — | — | — |
+> This node does not expose additional parameters.
 
 ---
 
 ## Behavior Notes
 
-- Describe execution behavior
-- Edge cases
-- Special rules
 
 ---
-
-## Performance Considerations
-
-- Time complexity
-- Memory usage
-- Recommended usage patterns
-
----
-
-## Common Use Cases
-
-- Example use case 1
-- Example use case 2
-
----
-
-## Limitations
-
-- Known limitations
-
----
-
-## Related Nodes
-
-- RelatedNode1
-- RelatedNode2
