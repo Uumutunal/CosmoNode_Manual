@@ -92,7 +92,9 @@ const config = {
 
 
       footer: {
-        style: 'dark',
+        colorMode: {
+          respectPrefersColorScheme: true,
+        },
         links: [
 /*           {
             title: 'Docs',
@@ -112,7 +114,7 @@ const config = {
               },
               {
                 label: 'Unity Discussions',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+                href: 'https://discussions.unity.com/t/wip-cosmonode-node-based-procedural-modelling-tool-for-unity/1689334',
               },
 /*               {
                 label: 'Discord',
@@ -129,10 +131,11 @@ const config = {
             items: [
               {
                 label: 'E mail',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+                href: 'mailto:cosmonode3d@gmail.com?subject=CosmoNode%20Support',
               },
             ],
           },
+          /*
           {
             title: 'More',
             items: [
@@ -142,7 +145,7 @@ const config = {
               },
             ],
           },
-
+*/
         ],
         copyright: `Copyright © ${new Date().getFullYear()} CosmoNode 3D Built with Docusaurus.`,
       },
