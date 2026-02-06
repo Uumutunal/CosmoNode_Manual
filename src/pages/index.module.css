@@ -1,0 +1,20 @@
+.hero {
+  padding: 4rem 1rem;
+  text-align: center;
+}
+
+.section {
+  padding: 3rem 1rem;
+  text-align: center; /* aligns the heading */
+}
+
+.sectionTitle {
+  margin-bottom: 2rem;
+}
+
+.section p {
+  max-width: 800px;
+  margin: 1rem auto;
+  line-height: 1.6;
+  text-align: left;     /* keep body text readable */
+}
