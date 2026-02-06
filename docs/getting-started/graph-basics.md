@@ -103,6 +103,54 @@ Bypassing is useful for testing and debugging.
 
 ---
 
+
+## Spreadsheet
+
+The **Spreadsheet** is a utility tool that allows you to inspect and debug mesh data in a tabular format, similar to the spreadsheet view found in Blender.
+
+It is primarily intended for **debugging**, **data inspection**, and **understanding how node operations affect geometry attributes**.
+
+---
+
+### What the Spreadsheet Shows
+
+Depending on the selected context, the spreadsheet can display:
+
+- **Vertex data**
+  - Position
+  - Normal
+  - Custom vertex attributes
+- **Edge data**
+  - Indices
+  - Edge attributes
+- **Face data**
+  - Indices
+  - Face attributes
+
+Each row represents a single geometry element, while columns correspond to attributes.
+
+---
+
+### When to Use It
+
+The spreadsheet is especially useful when:
+
+- Debugging unexpected geometry results
+- Verifying custom attributes
+- Inspecting the output of complex node graphs
+- Comparing geometry before and after an operation
+
+---
+
+### Editing & Limitations
+
+- The spreadsheet is currently **read-only**
+- Editing values directly is not supported
+- Large meshes may impact performance
+
+---
+
+
 ## Notes
 
 - Changes to node values or connections automatically update the rendered result

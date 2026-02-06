@@ -5,7 +5,7 @@ sidebar_position: 3
 
 ## Overview
 
-Attributes are named data values attached to mesh or curve elements.
+Attributes are named data values attached to meshes.
 
 ---
 
@@ -14,7 +14,6 @@ Attributes are named data values attached to mesh or curve elements.
 | Domain | Description |
 |------|-------------|
 | Vertex | One value per vertex |
-| Edge | One value per edge |
 | Face | One value per face |
 
 ---
@@ -33,3 +32,4 @@ Attributes are named data values attached to mesh or curve elements.
 
 - Attribute names must be unique per domain
 - Attribute type and domain must match when reading or writing values
+- Attributes are not supported for curves
