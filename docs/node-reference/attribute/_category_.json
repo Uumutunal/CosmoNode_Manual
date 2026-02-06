@@ -1,9 +1,0 @@
-{
-  "label": "Attribute",
-  "collapsible": true,
-  "collapsed": true,
-  "link": {
-    "type": "generated-index",
-    "description": "Attribute-related nodes and operations."
-  }
-}

@@ -1,9 +1,0 @@
-{
-  "label": "UV",
-  "collapsible": true,
-  "collapsed": true,
-  "link": {
-    "type": "generated-index",
-    "description": "Mesh-related nodes and operations."
-  }
-}
