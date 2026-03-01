@@ -8,7 +8,7 @@ sidebar_position: 1
 
 **CosmoNode** is a modular, node-based procedural modeling toolkit built directly into **Unity**.
 
-It allows you to create, modify, and generate 3D geometry using visual node graphs, without relying on external tools or destructive workflows.
+It allows you to create, modify, and generate 3D geometry using visual node graphs, without relying on external tools or destructive workflows in both the editor and at runtime.
 
 ---
 
@@ -33,15 +33,8 @@ Unlike traditional procedural tools, CosmoNode runs **entirely inside the Unity 
 - Tight integration with Unity assets and workflows
 - Designed specifically for game development and real-time use cases
 
----
+And most importantly, it works at **runtime**.
 
-## Who Is It For?
-
-CosmoNode is designed for:
-
-- **Game developers** who need fast iteration and reusable assets
-- **Technical artists** building procedural tools and effects
-- **Artists** who want more control without writing code
 
 ---
 
