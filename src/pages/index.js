@@ -28,7 +28,7 @@ export default function Home() {
 
         <p>
           CosmoNode is a node-based, procedural 3D modelling system designed to work
-          directly inside the Unity Editor.
+          directly inside the Unity Editor, at runtime.
         </p>
 
         <p>

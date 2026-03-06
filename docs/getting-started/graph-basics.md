@@ -103,53 +103,19 @@ Bypassing is useful for testing and debugging.
 
 ---
 
+## Renaming Parameters
 
-## Spreadsheet
+You can rename exposed parameters directly from the GameObject Inspector.
 
-The **Spreadsheet** is a utility tool that allows you to inspect and debug mesh data in a tabular format, similar to the spreadsheet view found in Blender.
+1. Select the GameObject that contains the CosmoNode component.
+2. In the Parameters section of the Inspector, locate the parameter you want to rename.
+3. Right-click on the parameter name.
+4. Select Rename from the context menu.
+5. Enter the new name and confirm.
 
-It is primarily intended for **debugging**, **data inspection**, and **understanding how node operations affect geometry attributes**.
-
----
-
-### What the Spreadsheet Shows
-
-Depending on the selected context, the spreadsheet can display:
-
-- **Vertex data**
-  - Position
-  - Normal
-  - Custom vertex attributes
-- **Edge data**
-  - Indices
-  - Edge attributes
-- **Face data**
-  - Indices
-  - Face attributes
-
-Each row represents a single geometry element, while columns correspond to attributes.
+Renaming a parameter will update its name within the graph and any references that use it.
 
 ---
-
-### When to Use It
-
-The spreadsheet is especially useful when:
-
-- Debugging unexpected geometry results
-- Verifying custom attributes
-- Inspecting the output of complex node graphs
-- Comparing geometry before and after an operation
-
----
-
-### Editing & Limitations
-
-- The spreadsheet is currently **read-only**
-- Editing values directly is not supported
-- Large meshes may impact performance
-
----
-
 
 ## Notes
 
