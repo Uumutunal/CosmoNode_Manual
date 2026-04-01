@@ -2,12 +2,12 @@
 title: Support
 ---
 
-## 💬 Discussions & Questions
+## Discussions & Questions
 
 If you need help using the tool or want to ask a question, feel free to open a discussion or issue.  
 This is the best place to get help from both the developer and the community.
 
-## 🐛 Bug Reports
+## Bug Reports
 
 Found something that’s not working as expected?
 
@@ -17,7 +17,7 @@ Please open an issue and include:
 - Screenshots or videos (if possible)  
 - Your Unity version  
 
-## 💡 Feature Requests
+## Feature Requests
 
 Have an idea that could improve the tool?
 
@@ -26,7 +26,7 @@ We’d love to hear it. Open an issue and describe:
 - Why it would be useful  
 - (Optional) Examples or references  
 
-## 🔗 GitHub Repository
+## GitHub Repository
 
 You can access the repository here:
 
