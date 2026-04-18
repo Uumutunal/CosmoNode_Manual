@@ -12,7 +12,7 @@ import {themes as prismThemes} from 'prism-react-renderer';
 const config = {
   title: 'CosmoNode',
   tagline: 'A modular node-based 3D modelling toolkit for artists and developers. Developed for Unity.',
-  favicon: 'img/cosmoNodeLogo.jpg',
+  favicon: 'img/Logo.PNG',
 
   // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
   future: {
@@ -69,8 +69,7 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
-      // Replace with your project's social card
-      image: 'img/cosmoNodeLogo.jpg',
+      image: 'img/Logo.PNG',
       colorMode: {
         respectPrefersColorScheme: true,
       },

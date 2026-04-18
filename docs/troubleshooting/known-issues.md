@@ -12,10 +12,6 @@ If you encounter a problem not listed here, please report it on the project's Gi
 
   **Workaround:** Close the graph window and reopen it.
 
----
-
-- **Gizmo Requires Selected GameObject**  
-  The **Gizmo** (toggled from the **Wireframe** button at the top-left of the graph window) only works when the associated **GameObject is selected** in the Unity hierarchy.
 
 ---
 
