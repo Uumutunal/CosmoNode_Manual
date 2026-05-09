@@ -19,6 +19,19 @@ const config = {
     v4: true, // Improve compatibility with the upcoming Docusaurus v4
   },
 
+  themes: [
+    [
+      require.resolve("@easyops-cn/docusaurus-search-local"),
+      {
+        // Options:
+        hashed: true, // Recommended for better caching
+        language: ["en"], // Language of your docs
+        highlightSearchTermsOnTargetPage: true,
+        explicitSearchResultPath: true,
+      },
+    ],
+  ],
+
   // Set the production url of your site here
   url: 'https://uumutunal.github.io',
   // Set the /<baseUrl>/ pathname under which your site is served
