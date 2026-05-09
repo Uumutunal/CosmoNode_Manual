@@ -9,7 +9,8 @@ sidebar_position: 6
 | Action | Shortcut |
 |--------|----------|
 | Open node context menu | `Space` or `right click` |
-| Delete selection | `Delete` |
+| Delete selection | `X` or `Delete` |
+| Delete selection and keep the connection | `Ctrl + X` |
 | Copy selection | `Ctrl + C` |
 | Paste selection | `Ctrl + V` |
 | Frame selected | `Ctrl + T` |
