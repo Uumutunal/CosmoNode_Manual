@@ -15,6 +15,7 @@ sidebar_position: 6
 | Frame selected | `Ctrl + T` |
 | Remove from frame | `Ctrl + Alt + T` |
 | Create a group from selected nodes | `Ctrl + G` |
+| Enter and exit from groups | `Tab` |
 
 ### Navigation
 

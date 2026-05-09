@@ -32,6 +32,12 @@ You can access the repository here:
 
 👉 https://github.com/Uumutunal/CosmoNode_Feedback
 
+## Contact
+
+You can contact me directly through my Email here:
+
+cosmonode3d@gmail.com
+
 ---
 
 Your feedback and contributions help shape the future of this project.

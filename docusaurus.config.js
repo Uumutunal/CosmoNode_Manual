@@ -12,7 +12,7 @@ import {themes as prismThemes} from 'prism-react-renderer';
 const config = {
   title: 'CosmoNode',
   tagline: 'A modular node-based 3D modelling toolkit for artists and developers. Developed for Unity.',
-  favicon: 'img/Logo.PNG',
+  favicon: 'img/Logo_round.PNG',
 
   // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
   future: {
@@ -69,7 +69,7 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
-      image: 'img/Logo.PNG',
+      image: 'img/Logo_round.PNG',
       colorMode: {
         respectPrefersColorScheme: true,
       },
@@ -112,6 +112,10 @@ const config = {
                 label: 'Unity Discussions',
                 href: 'https://discussions.unity.com/t/wip-cosmonode-node-based-procedural-modelling-tool-for-unity/1689334',
               },
+              {
+                label: 'GitHub',
+                href: 'https://github.com/Uumutunal/CosmoNode_Feedback',
+              },
 /*               {
                 label: 'Discord',
                 href: 'https://discordapp.com/invite/docusaurus',
@@ -126,7 +130,7 @@ const config = {
             title: 'Contact',
             items: [
               {
-                label: 'E mail',
+                label: 'Email',
                 href: 'mailto:cosmonode3d@gmail.com?subject=CosmoNode%20Support',
               },
             ],
