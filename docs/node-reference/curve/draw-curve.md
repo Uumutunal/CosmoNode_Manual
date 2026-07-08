@@ -24,7 +24,9 @@ Creates a curve by drawing it interactively in the editor.
 
 ## Parameters
 
-> This node does not expose additional parameters.
+| Name           | Type             | Default             | Description                                                                           |
+| :------------- | :--------------- | :------------------ | :------------------------------------------------------------------------------------ |
+| Is Bezier | Bool | True | Controls whether the curve is Bezier or non-Bezier |
 
 ---
 

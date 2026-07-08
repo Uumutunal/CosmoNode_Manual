@@ -36,5 +36,6 @@ These shortcuts apply when editing curve-based nodes or manipulating curve contr
 | Select control point | `Left Click` |
 | Add control point | `Shift + Left Click` |
 | Multi-select points | `Ctrl + Left Click` |
+| Close Curve | `Ctrl + F` |
 | Deselect points | `Esc` |
 | Delete control point | `X` or `Delete` |
