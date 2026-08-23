@@ -18,7 +18,7 @@ sidebar_position: 6
 | Create a group from selected nodes | `Ctrl + G` |
 | Enter and exit from groups | `Tab` |
 
-### Navigation
+### Graph Navigation
 
 | Action | Shortcut |
 |--------|----------|
@@ -34,7 +34,7 @@ These shortcuts apply when editing curve-based nodes or manipulating curve contr
 | Action | Shortcut |
 |--------|----------|
 | Select control point | `Left Click` |
-| Add control point | `Shift + Left Click` |
+| Add control point | `Ctrl + Left Click` |
 | Multi-select points | `Ctrl + Left Click` |
 | Close Curve | `Ctrl + F` |
 | Deselect points | `Esc` |

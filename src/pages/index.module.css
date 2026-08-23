@@ -18,3 +18,22 @@
   line-height: 1.6;
   text-align: left;     /* keep body text readable */
 }
+
+.assetStoreButton {
+  display: inline-block;
+  margin-top: 1.5rem;
+  padding: 0.9rem 1.8rem;
+  font-size: 1.1rem;
+  font-weight: 600;
+  border-radius: 8px;
+  text-decoration: none;
+  background: #ffffff;
+  color: #222222;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.assetStoreButton:hover {
+  transform: translateY(-2px);
+  text-decoration: none;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.2);
+}

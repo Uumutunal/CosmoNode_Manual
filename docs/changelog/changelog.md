@@ -8,6 +8,125 @@ This document tracks all public releases, feature updates, optimization passes, 
 
 ---
 
+## Version 0.4.0
+
+### New Features & Nodes
+
+- **Instancing:** Added support for procedural geometry instancing.
+
+- **Pack Geometry Node:** Added a node for converting mesh geometry into instances.
+
+- **Realize Instances Node:** Added a node for converting instances back into regular mesh geometry.
+
+- **UV Transform Node:** Added a node for procedurally translating, rotating, and scaling UV coordinates.
+
+- **Material Parameter:** Added support for controlling material parameters within the graph.
+
+- **Auto UV Mapping:** Added automatic UV mapping support to the Follow Path node.
+
+- **Simple Deform Node:** Added a new node for procedurally bending, twisting, and tapering geometry.
+
+#### Curve Improvements
+
+- **Box Selection:** Added box selection support for curve points.
+
+- **Curve Parameter:** Added curve parameter support for procedural curve operations.
+
+- **Curve Point Deletion:** Fixed issues with deleting curve points.
+
+#### Follow Path Node
+
+- **Multiple Paths:** Fixed the Follow Path node not correctly closing the loop when working with multiple paths.
+
+- **Twisting:** Fixed unexpected twisting during Follow Path deformation.
+
+- **UV Mapping:** Added automatic UV mapping for geometry generated along paths.
+
+### Bug Fixes & Stability Improvements
+
+- **Merge Node:** Fixed the Flatness attribute not being merged correctly.
+
+- **Match Size Node:** Fixed the gizmo not scaling correctly with the GameObject.
+
+- **Curve Selection:** Fixed issues with curve box selection and point interaction.
+
+---
+
+## Version 0.3.2
+
+**Released: July 27, 2026**
+
+### Bug Fixes & Stability Improvements
+
+- **Draw Curve:** Fixed Curve Mode always blocking Scene View input after editing.
+
+- **ForEach Node:** Fixed the iteration count not working correctly.
+
+- **Input Handling:** Fixed null input handling.
+
+- **ForEach Node:** Fixed the iteration input not updating correctly.
+
+- **Weld Node:** Fixed issues with degenerate faces and edges after welding.
+
+- **Merge Node:** Fixed the second input not correctly merging UV data.
+
+---
+
+## Version 0.3.0
+
+### New Features & Nodes
+
+- **Raycast Node:** Added a new node for performing ray queries.
+
+### Draw Curve Improvements
+
+- Added support for closed curves.
+- Added support for linear (non-Bezier) curve segments.
+- Added a dedicated curve handle window and editing controls.
+- Curves now reset rotation and scale automatically when created.
+
+### Optimizations & Refactoring
+
+- **Resample Node Rewrite:** Completely rewrote the Resample node for improved performance and maintainability.
+
+- **Reduced Garbage Collection:** Lowered GC pressure by improving referenced output handling.
+
+- **Optimized Native Code Interop:** Improved communication between managed and native code.
+
+- **Split Pieces Optimization:**
+  - Optimized the Split Pieces workflow.
+  - Added component outputs to `Utils.SplitConnectedPieces`.
+
+- **Copy Node:** Improved execution performance.
+
+- **Static Merge Node:** Faster processing for static merge operations.
+
+- **Material Assignment:** Improved performance when applying materials in CosmoNode.
+
+- **Decimate Node:** Refactored and cleaned up the implementation.
+
+### Bug Fixes & Stability Improvements
+
+- **Draw Curve:**
+  - Fixed adding points when no point was selected.
+  - Fixed incorrect depth when adding new points.
+
+- **Curve Bevel:** Fixed bevel generation on closed curves.
+
+- **Rendered Nodes:** Fixed errors when deleting rendered nodes.
+
+- **Draw Node:** Fixed the node being reset after removing a connection.
+
+- **Spreadsheet:** Fixed updates not occurring correctly when creating or removing connections.
+
+- **Unity Compatibility:** Fixed GUI matrix offset issues in newer Unity versions.
+
+- **Ghost Node:** Fixed ghost rendering while the source GameObject was invisible.
+
+- **Gizmo Scaling:** Fixed inconsistent vertex gizmo scaling.
+
+---
+
 ## Version 0.2.0
 
 ### New Features & Nodes

@@ -9,6 +9,16 @@ function HomepageHeader() {
       <Heading as="h1">CosmoNode</Heading>
       <p>A modular node-based 3D modelling toolkit for artists and developers.</p>
       <p>Built for Unity.</p>
+
+      <a
+        className={styles.assetStoreButton}
+        href="https://assetstore.unity.com/packages/tools/modeling/cosmonode-runtime-procedural-geometry-367350"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        Get CosmoNode on the Unity Asset Store
+      </a>
+
     </header>
   );
 }

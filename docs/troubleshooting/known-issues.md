@@ -33,3 +33,10 @@ If you encounter a problem not listed here, please report it on the project's Gi
   When the **Value** input on a **Store Attribute** node changes, the update may not immediately appear in the **Spreadsheet**.
 
   **Workaround:** Press the **Render** button on the node to refresh the spreadsheet view.
+
+  ---
+
+- **Buttons on the ndoes are not working**  
+  Sometimes the buttons on the nodes on the graph might not work when clicked.
+
+  **Workaround:** Reloading the scripts solves the issue.
