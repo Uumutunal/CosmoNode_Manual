@@ -34,9 +34,14 @@ If you encounter a problem not listed here, please report it on the project's Gi
 
   **Workaround:** Press the **Render** button on the node to refresh the spreadsheet view.
 
-  ---
+---
 
 - **Buttons on the ndoes are not working**  
   Sometimes the buttons on the nodes on the graph might not work when clicked.
 
   **Workaround:** Reloading the scripts solves the issue.
+
+---
+
+- **SerializedProperty errors are thrown when pressing the "Esc" key to cancel the modification of int or float values** 
+  **Workaround:** This is a bug related to Unity itself and so far doesn't have a workaround. Might be fixed in later Unity versions.

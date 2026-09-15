@@ -8,6 +8,15 @@ This document tracks all public releases, feature updates, optimization passes, 
 
 ---
 
+## Version 0.4.1
+
+### New Features & Optimizations
+
+- **GPU Instancing:** Added GPU instancing support for significantly more efficient rendering of instanced geometry.
+- **Post-Processing Optimization:** Optimized the processing performed after graph evaluation, improving overall performance and reducing the overhead of converting procedural results into Unity meshes.
+
+---
+
 ## Version 0.4.0
 
 ### New Features & Nodes

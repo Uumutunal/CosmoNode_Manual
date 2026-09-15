@@ -77,6 +77,17 @@ const config = {
         },
       }),
     ],
+
+    [
+      '@docusaurus/preset-classic',
+      {
+        gtag: {
+          trackingID: 'G-V901RXB4CK',
+          anonymizeIP: true,
+        },
+      },
+    ],
+
   ],
 
   themeConfig:
