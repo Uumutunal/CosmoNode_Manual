@@ -61,33 +61,28 @@ const config = {
         docs: {
           sidebarPath: './sidebars.js',
         },
+  
         blog: {
           showReadingTime: true,
           feedOptions: {
             type: ['rss', 'atom'],
             xslt: true,
           },
-          // Useful options to enforce blogging best practices
           onInlineTags: 'warn',
           onInlineAuthors: 'warn',
           onUntruncatedBlogPosts: 'warn',
         },
+  
         theme: {
           customCss: './src/css/custom.css',
         },
-      }),
-    ],
-
-    [
-      '@docusaurus/preset-classic',
-      {
+  
         gtag: {
           trackingID: 'G-V901RXB4CK',
           anonymizeIP: true,
         },
-      },
+      }),
     ],
-
   ],
 
   themeConfig:
