@@ -8,7 +8,7 @@ sidebar_position: 6
 
 | Action | Shortcut |
 |--------|----------|
-| Open node context menu | `Space` or `right click` |
+| Open node context menu | `Space` or `Right Click` |
 | Delete selection | `X` or `Delete` |
 | Delete selection and keep the connection | `Ctrl + X` |
 | Copy selection | `Ctrl + C` |
@@ -22,10 +22,11 @@ sidebar_position: 6
 
 | Action | Shortcut |
 |--------|----------|
-| Pan view | `Middle Mouse Drag` or `right click`|
+| Pan view | `Middle Mouse Drag` or `Right Click`|
 | Zoom | `Scroll Wheel` |
 | Box select | `Left Mouse Drag` |
-| Center selected node | `Double click` or `F`|
+| Center selected node |`F`|
+| Mode Nodes |`Left Mouse Drag` or `G`|
 
 ### Curve Controls
 

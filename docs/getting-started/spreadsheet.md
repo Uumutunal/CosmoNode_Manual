@@ -33,6 +33,18 @@ Each row represents a single face (triangle or polygon). Face indices reflect th
 
 ---
 
+### Face Corner Domain
+
+When the **Face Corner** domain is selected, the spreadsheet displays:
+
+- Face index
+- Face corner index corresponding that face
+- All face-corner-domain attributes
+
+Each row represents a single corner of a face, corresponding to a vertex reference within that face. Unlike the vertex domain, a vertex shared by multiple faces has a separate face corner for each face it belongs to. This domain is useful for inspecting attributes such as UV coordinates and split normals that can vary between face corners.
+
+---
+
 ### Attributes
 
 All attributes available on the selected domain are shown as columns in the spreadsheet.

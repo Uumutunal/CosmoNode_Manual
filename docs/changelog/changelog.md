@@ -8,6 +8,41 @@ This document tracks all public releases, feature updates, optimization passes, 
 
 ---
 
+
+### Version 0.4.2
+
+#### New Features & Nodes
+
+* **Transform Node Improvements** - Added translation and rotation order options.
+* **Collapsible Nodes** - Added the ability to collapse nodes.
+* **Node Movement** - Added moving nodes with the G key, like in Blender.
+* **Field Change Indicators** - Fields now change color when their default value is modified.
+* **ForEach Node Frame Overlay** - Added a toggle to turn off the frame overlay.
+
+#### Optimizations & Refactoring
+
+* **Script Reload Time** - Slightly optimized script reload time.
+
+#### Interface & Usability Changes
+
+* **Connection Visuals** - Connections are now drawn as solid lines instead of blurred ones.
+* **Centering Behavior**
+  * F now centers the selected node instead of the whole graph.
+  * Removed double-click centering on nodes.
+
+#### Bug Fixes & Stability Improvements
+
+* **Instances**
+  * Fixed instances being culled when the center of the GameObject was outside of the frustum.
+  * Fixed instances still showing after the rendered node was deleted.
+  * Fixed wireframe rendering for instances.
+  * Fixed ghost mode for instances.
+* **Match Size Node** - Fixed incorrect behavior when used with instances.
+* **Set Material Node** - Fixed the default selection being set to 1 instead of 0.
+* **Toolbar** - Fixed the toolbar conflicting with nodes.
+
+---
+
 ## Version 0.4.1
 
 ### New Features & Optimizations
